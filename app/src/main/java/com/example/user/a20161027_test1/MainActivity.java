@@ -24,13 +24,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        pb = (ProgressBar) findViewById(R.id.progressBar);
+        pb = (ProgressBar) findViewById(R.id.progressBar);  //progressbar進度條
         bt = (Button) findViewById(R.id.button);
         bt2 = (Button) findViewById(R.id.button2);
         bt3 = (Button) findViewById(R.id.button3);
         tv = (TextView) findViewById(R.id.textView2);
         tv2 = (TextView) findViewById(R.id.textView3);
-        sb = (SeekBar) findViewById(R.id.seekBar);
+        sb = (SeekBar) findViewById(R.id.seekBar);          //seekbar拉條
 
         act= (AutoCompleteTextView) findViewById(R.id.autoCompleteTextView);
         String data[] = {"aaa","aab","aac","bba","bbc","ccc","cca","ccb"};
