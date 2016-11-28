@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         act= (AutoCompleteTextView) findViewById(R.id.autoCompleteTextView);    //autoCompleteTextView自動提示
         String data[] = {"aaa","aab","aac","bba","bbc","ccc","cca","ccb"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_spinner_item,data);
-        act.setThreshold(1);    //輸入1個字元,及自動提示
+        act.setThreshold(1);    //輸入1個字元,即自動提示
         act.setAdapter(adapter);
 
         bt.setOnClickListener(new View.OnClickListener() {
