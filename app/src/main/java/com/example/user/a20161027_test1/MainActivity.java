@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         tv2 = (TextView) findViewById(R.id.textView3);
         sb = (SeekBar) findViewById(R.id.seekBar);          //seekbar拉條
 
-        act= (AutoCompleteTextView) findViewById(R.id.autoCompleteTextView);
+        act= (AutoCompleteTextView) findViewById(R.id.autoCompleteTextView);    //autoCompleteTextView自動提示
         String data[] = {"aaa","aab","aac","bba","bbc","ccc","cca","ccb"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_spinner_item,data);
         act.setThreshold(1);
